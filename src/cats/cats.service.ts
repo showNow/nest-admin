@@ -13,7 +13,7 @@ export class CatsService {
   }
 
   findOne(id: number) {
-    return `This action returns a #${id} cat`;
+    return `This action returns a #${id} cat2`;
   }
 
   update(id: number, updateCatDto: UpdateCatDto) {
